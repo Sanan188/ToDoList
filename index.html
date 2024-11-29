@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Tracker</title>
+    <link rel="stylesheet" href="./style.css">
+    <script async src="./main.js"></script>
+</head>
+
+<body>
+    <div class="task-container">
+        <div class="header-bar"></div>
+        <div class="task-wrapper">
+            <h1 class="task-title">ToDoList</h1>
+            <div class="sort-controls">
+                <button class="sort-toggle ascending"></button>
+            </div>
+            <div class="task-collection">
+                <div class="task-entry" draggable="true">
+                    <input type="text" class="task-text">
+                    <button class="task-delete"></button>
+                </div>
+            </div>
+            <div class="task-creator">
+                <button class="task-add">
+                    <span class="add-icon">+</span>
+                    <span class="add-label">Add</span>
+                </button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
